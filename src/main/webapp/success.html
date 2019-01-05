@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Certificate Information</title>
+</head>
+<body>
+	<h3>Enter your information for creating certificate</h3>
+	<form action="Logout" method="post">
+		<input type="submit" value="Logout">
+	</form> <br>
+	
+	<form method="post" action="createCertificate">
+	    Country Name (2 letter code): <input type="text" name="country" size="2"> <br> <br>
+	    State or Province Name: <input type="text" name="state"> <br> <br>
+		Locality Name: <input type="text" name="locality"> <br> <br>
+		Organization Name: <input type="text" name="organization"> <br> <br>
+		Organizational Unit Name: <input type="text" name="organizationunit"> <br> <br>
+		Common Name: <input type="text" name="common"> <br> <br>
+		Email Address: <input type="email" name="emailaddress"> <br> <br>
+		<input type="submit" value="Create"> <br> <br>
+		<input type="reset" value="Reset"> <br>
+	</form>
+</body>
+</html>

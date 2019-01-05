@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name>ExampleOMI</display-name>
+
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>asia.aalto.servlet.RegisterServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>asia.aalto.servlet.LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>asia.aalto.servlet.LogoutServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ClientCertificate</servlet-name>
+		<servlet-class>asia.aalto.servlet.CreateCertificate</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/RegisterServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/RegisterServlet/confirm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ClientCertificate</servlet-name>
+		<url-pattern>/createCertificate</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
