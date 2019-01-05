@@ -7,7 +7,7 @@
 	<name>SecurityCertificate</name>
 
 	<properties>
-		<jettyVersion>9.4.8.v20171121</jettyVersion>
+		<jettyVersion>9.4.12.v20180830</jettyVersion>
 	</properties>
 
 	<dependencies>
